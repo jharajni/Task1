@@ -1,0 +1,81 @@
+
+*{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        background-color: #b0aac0;
+        min-height: 100vh;
+        border:5px solid #034f84;
+    }
+    .content{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    
+    .intro{
+        text-align: center;
+        color: white;
+        font-size:large;
+    }
+    
+    
+    .img{
+   
+    width: 300px;
+    height: 200px;
+    /* float: left; 
+    background-image: url('img/images.jpeg'); 
+    background-size: 100%;  */
+    }
+
+
+    .quotes{
+        position: absolute;
+        width: 50%;
+        top: 20%;
+        left: 40%;
+        padding: 20px;
+       
+    }
+    .top_section{
+        margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+    .top_section h2,h4{
+     font-size: 20px;
+     font-weight: bold;
+     color: black;
+     text-align: end;
+
+    }
+    
+    .top_section p{
+     font-size: 25px;
+     font-weight: bold;
+     color:#36486b;
+    }
+    .about_APJ h2{
+      font-size: 60px;
+      font-weight: 400;
+      margin-bottom: 10px;
+
+    }
+    .about_APJ p{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        text-align: justify;
+    }
+    footer{
+        margin: 50px 0;
+    }
+    footer p{
+        text-align: end;
+    }
+    
+
